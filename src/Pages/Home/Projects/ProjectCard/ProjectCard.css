@@ -1,0 +1,45 @@
+.boxes{
+    height : 400px;
+    position: relative;
+    overflow : hidden;
+}
+
+.project-container{
+    
+    background-color : #385c8f;
+    color : white;
+    position : absolute;
+    top : -200%;
+    left : 0;
+    height : 100%;
+    width: 100%;
+    padding : 25px;
+    box-sizing: border-box;
+    transition: all 0.5s;   
+}
+
+.project-container p {
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+.project-container strong {
+    font-size: 16px;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+.project-container a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 15px;
+    background: linear-gradient(to right, #457fca, #5691c8);
+    border-radius:5px;
+    color: white;
+}
+.boxes:hover .project-container{
+    top: 0;
+}

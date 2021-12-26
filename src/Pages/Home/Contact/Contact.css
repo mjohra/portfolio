@@ -1,0 +1,20 @@
+.contact{
+  background: linear-gradient(to top, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-bottom: 50px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact form input,
+  textarea {
+    width: 50%;
+    margin-bottom: 8px;
+    border:1px solid #30336b;
+    
+  }

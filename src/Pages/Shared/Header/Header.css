@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.nav-detail a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.nav-detail a:hover{
+  color: white;
+  border-bottom: 2px solid white;
+}
+.details{
+  background-color:#3a6073;
+  padding:0;
+  margin-bottom:40px;
+  
+}
+.tog{
+  color:black;
+}

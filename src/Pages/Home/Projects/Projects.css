@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400&family=Rubik&display=swap");
+.head-style {
+  font-family: "M PLUS 1 Code", sans-serif;
+  letter-spacing: 5px;
+  color: #ece9e6;
+  margin-top: 40px;
+  font-weight: bold;
+}
